@@ -30,3 +30,4 @@ def mastermind_game(n):
             elif count == 4:
                 print("You've become a Mastermind!")
                 break
+        print("It took you ", tries, " tries to get the correct number.")
